@@ -1,0 +1,120 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#jogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#jogador {
+  position: relative;
+  flex-grow: 1;
+  border-radius: 5px;
+  width: 200px;
+  padding: 20px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: lightskyblue;
+}
+
+#pontos {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+div #pontos p span {
+  padding: 10px;
+  border: 1px solid white;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+ul#jogador-escolha {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul#jogador-escolha li {
+  display: inline;
+}
+
+ul#jogador-escolha li a img {
+  opacity: 0.6;
+}
+
+ul#jogador-escolha li a img:hover {
+  opacity: 1;
+}
+
+#computador {
+  display: flex;
+  justify-content: center;
+}
+
+#escolhaComputador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  background-color: lightseagreen;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+#jogarNovamente {
+  display: none;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#mensagens {
+  background-color: darkgray;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+  font-size: 32px;
+}

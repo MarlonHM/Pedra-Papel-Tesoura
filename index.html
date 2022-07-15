@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Jokenpô</title>
+</head>
+<body>
+    <div id="principal">
+        <h1 id="titulo">Jokenpô</h1>
+        <h3>Placar</h3>
+        <div id="pontos">
+            <p>Jogador<span id="jogador-pontos">0</span></p>
+            <p>Computador<span id="computador-pontos">0</span></p>
+            <p>Empates <span id="empate">0</span></p>
+        </div>
+        <div><h2>Escolha sua jogada</h2></div>
+        <div id="jogo">
+            <div id="jogador">                
+                <ul id="jogador-escolha">
+                    <li><a id="jogador-escolha-1"  onclick="jogar(1)" ><img src="pedra.png" alt="pedra"></a></li>
+                    <li><a id="jogador-escolha-2"  onclick="jogar(2)" ><img src="papel.png" alt="papel"></a></li>
+                    <li><a id="jogador-escolha-3"  onclick="jogar(3)"><img src="tesoura.png" alt="tesoura"></a></li>
+                </ul>
+            </div>                  
+        </div>
+        <div id="computador">
+            <div id="escolhaComputador">Escolha do Computador</div>
+        </div>
+        <div id="botao">
+            <button id="jogarNovamente" onclick="jogarNovamente()">Jogar Novamente</button>      
+        </div>  
+        <div id="mensagens">mensagens</div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
